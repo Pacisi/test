@@ -1,0 +1,15 @@
+GET /cgi-bin/logout.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81E19342A3743B27462C988BCDAA2FB HTTP/1.1
+Host: 127.0.0.1:8800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8800/cgi-bin/newProfile.pl?USER=testuser_01&PASSWORD=Testuser_01&FIRSTNAME=testuser_01&LASTNAME=testuser_01&STREET=testuser_01&CITY=testuser_01&COUNTRY=testuser_01&ACTION=Login
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

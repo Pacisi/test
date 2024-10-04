@@ -1,0 +1,140 @@
+[API Trapper      (2c2c:104c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (44d4:44d8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (465c:3200)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (465c:3a84)] ------------------------------------------------------------------------------------------
+[Network Analyzer (465c:3a84)] Load Network Traffic Analyzers:
+[Network Analyzer (465c:3a84)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (465c:3a84)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (465c:3a84)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (465c:3a84)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (465c:3a84)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (465c:3a84)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (465c:3a84)]     Analyzer Module: local_server (value=)
+[Network Analyzer (465c:3a84)] ------------------------------------------------------------------------------------------
+[Network Analyzer (465c:53a8)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4001:829:0:0:0:2003: - 443  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4016:808:0:0:0:200D: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4016:808:0:0:0:200A: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (465c:3264)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c:3264)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (465c: a98)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c: a98)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (465c:56e0)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=116"   
+[Network Analyzer (465c:56e0)]   (Sid:  2) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:400C:C07:0:0:0:64: - 443  (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (465c:56e0)]   (Sid:  2) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (465c: a44)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c: a44)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (465c:5d44)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c:5d44)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (465c:53a8)] "GET /"   
+[Network Analyzer (465c:53a8)]   (Sid:  1) Client -> Server @ : 658 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  1) Server -> Client : 2243 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  1) Server -> Client : 11 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/wakatours.css"   
+[Network Analyzer (465c:53a8)]   (Sid:  1) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Web Request      (465c:53a8)] "GET /general/fonts-Roboto-Condensed.css"   
+[Network Analyzer (465c:53a8)]   (Sid:  6) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (465c:53a8)]   (Sid:  6) Server -> Client : 3231 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/help.js"   
+[Network Analyzer (465c:53a8)]   (Sid:  7) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 789 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/wakatours-header.jpg"   
+[Network Analyzer (465c:53a8)]   (Sid:  7) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  1) Server -> Client : 8337 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 3526 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/welcome.jpg"   
+[Network Analyzer (465c:53a8)]   (Sid:  7) Client -> Server @ : 592 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 5784 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/fonts/Roboto-Condensed-regular/Roboto-Condensed-regular.woff2"   
+[Network Analyzer (465c:53a8)]   (Sid:  7) Client -> Server @ : 642 bytes (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/fonts/Roboto-Condensed-italic/Roboto-Condensed-italic.woff2"   
+[Network Analyzer (465c:53a8)]   (Sid:  1) Client -> Server @ : 640 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Server -> Client : 10561 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  1) Server -> Client : 12089 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/fonts/Roboto-Condensed-700/Roboto-Condensed-700.woff2"   
+[Network Analyzer (465c:53a8)]   (Sid:  6) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  6) Server -> Client : 10609 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/wakatours.ico"   
+[Network Analyzer (465c:53a8)]   (Sid:  6) Client -> Server @ : 594 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid:  6) Server -> Client : 11241 bytes  (Service=HTTP)
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4016:80B:0:0:0:2003: - 443  (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:400C:C03:0:0:0:BC: - 5228  (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (465c:56e0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (465c:56e0)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (465c:56e0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (465c:56e0)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (465c:53a8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (465c:2df4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (465c:2df4)] SSLAccept(ssl_id = 1841199422880 = 000001ACB0099DA0) Failed, ctx = 000001ACB00760D0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (465c:2df4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (465c:539c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c:539c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (213c: b68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (465c:56e0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (465c:56e0)]   (Sid:  9) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (465c:56e0)]   (Sid:  9) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (465c:56e0)]   (Sid:  9) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (465c:56e0)]   (Sid:  9) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (465c:53a8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (465c:53a8)]   (Sid:  7) Connection Terminated (by Client)
+[Web Request      (465c:53a8)] "GET /cgi-bin/newProfile.pl?"   
+[Network Analyzer (465c:53a8)]   (Sid: 10) Client -> Server @ : 720 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 10) Server -> Client : 3601 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/down.png"   
+[Network Analyzer (465c:53a8)]   (Sid: 10) Client -> Server @ : 611 bytes (Service=HTTP)
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (465c:53a8)]   (Sid: 10) Server -> Client : 2380 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /general/up.png"   
+[Network Analyzer (465c:53a8)]   (Sid: 11) Client -> Server @ : 609 bytes (Service=HTTP)
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4016:80B:0:0:0:200A: - 443  (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (465c:53a8)]   (Sid: 11) Server -> Client : 2404 bytes  (Service=HTTP)
+[Network Analyzer (465c:26b0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c:26b0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (465c:56e0)] "GET /v1/pages/ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=?alt=proto"   
+[Network Analyzer (465c:56e0)]   (Sid: 12) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Network Analyzer (465c:56e0)]   (Sid: 12) Server -> Client : 528 bytes (SSL) (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (465c:53a8)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 2A00:1450:4001:809:0:0:0:200A: - 443  (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (465c:4950)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (465c:4950)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (465c:3a84)] Address lookup for DESKTOP-OBMIF1P = 192.168.2.123
+[Network Analyzer (465c:3a84)] Request Connection: Remote Server @ 127.0.0.1:8800   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (465c:53a8)] "GET /cgi-bin/newProfile.pl?USER=testuser_02&PASSWORD=testuser_02&FIRSTNAME=testuser_02&LASTNAME=testuser_02&STREET=testuser_02&CITY=testuser_02&COUNTRY=testuser_02&ACTION=Login"   
+[Network Analyzer (465c:53a8)]   (Sid: 14) Client -> Server @ : 891 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 14) Server -> Client : 3027 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (465c:53a8)] "GET /cgi-bin/logout.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81E1A342A3743B27462C98FBED4A2FB"   
+[Network Analyzer (465c:53a8)]   (Sid: 14) Client -> Server @ : 965 bytes (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 14) Server -> Client : 2220 bytes  (Service=HTTP)
+[Network Analyzer (465c:53a8)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)

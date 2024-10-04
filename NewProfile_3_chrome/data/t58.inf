@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.htm
+URL1=http://127.0.0.1:8800/cgi-bin/newProfile.pl?USER=testuser_02&PASSWORD=testuser_02&FIRSTNAME=testuser_02&LASTNAME=testuser_02&STREET=testuser_02&CITY=testuser_02&COUNTRY=testuser_02&ACTION=Login
+Total=1
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_58.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

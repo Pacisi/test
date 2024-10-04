@@ -1,0 +1,13 @@
+var down = true;
+function showHelp(){
+	down=!down;
+	if (down){
+		document.getElementById("HELP_DOWN").style.display = "inline";
+		document.getElementById("HELP_UP").style.display   = "none";		
+		document.getElementById("HELP_BOX").style.display  = "none";
+	}else{	
+		document.getElementById("HELP_DOWN").style.display = "none";
+		document.getElementById("HELP_UP").style.display   = "inline";		
+		document.getElementById("HELP_BOX").style.display  = "block";
+	}	
+}

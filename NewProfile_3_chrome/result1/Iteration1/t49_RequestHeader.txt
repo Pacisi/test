@@ -1,0 +1,9 @@
+GET /cgi-bin/newProfile.pl?USER=testuser_10&PASSWORD=testuser_10&FIRSTNAME=testuser_10&LASTNAME=testuser_10&STREET=testuser_10&CITY=testuser_10&COUNTRY=testuser_10&ACTION=Login HTTP/1.1
+Referer: http://127.0.0.1:8800/cgi-bin/newProfile.pl?
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: de-DE,de;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:8800
+

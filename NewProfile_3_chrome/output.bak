@@ -1,0 +1,67 @@
+Virtual User Script started at: 06.11.2023 16:14:46
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.1.0 for Windows 11; build 406 (Jul 12 2023 09:14:26)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Arbeit lokal\Schulungen\LDBV\LR-Lösungen\LR-Lösungen\Übung_6\NewProfile_3_chrome\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(11): Notify: Transaction "01_Startseite" started.
+Action.c(13): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(13): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_url("127.0.0.1:8800") started  	[MsgId: MMSG-26355]
+Action.c(15): Found resource "http://127.0.0.1:8800/general/wakatours.css" in HTML "http://127.0.0.1:8800/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://127.0.0.1:8800/general/fonts-Roboto-Condensed.css" in HTML "http://127.0.0.1:8800/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://127.0.0.1:8800/general/help.js" in HTML "http://127.0.0.1:8800/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://127.0.0.1:8800/general/wakatours-header.jpg" in HTML "http://127.0.0.1:8800/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://127.0.0.1:8800/general/welcome.jpg" in HTML "http://127.0.0.1:8800/"  	[MsgId: MMSG-26659]
+Action.c(15): Downloading resource "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-regular/Roboto-Condensed-regular.woff2" (specified by argument number 10)  	[MsgId: MMSG-26576]
+Action.c(15): Downloading resource "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-italic/Roboto-Condensed-italic.woff2" (specified by argument number 13)  	[MsgId: MMSG-26576]
+Action.c(15): Downloading resource "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-700/Roboto-Condensed-700.woff2" (specified by argument number 16)  	[MsgId: MMSG-26576]
+Action.c(15): Registered web_reg_find successful for "Text=Welcome to WakaTours" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_url("127.0.0.1:8800") was successful, 333057 body bytes, 2637 header bytes, 17 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "01_Startseite" ended with a "Pass" status (Duration: 0,5701 Wasted Time: 0,0675).
+Action.c(31): Notify: Transaction "02_NewProfile" started.
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_submit_data("newProfile.pl") started  	[MsgId: MMSG-26355]
+Action.c(35): Resource "http://127.0.0.1:8800/general/wakatours.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "http://127.0.0.1:8800/general/fonts-Roboto-Condensed.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "http://127.0.0.1:8800/general/help.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "http://127.0.0.1:8800/general/wakatours-header.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Found resource "http://127.0.0.1:8800/general/down.png" in HTML "http://127.0.0.1:8800/cgi-bin/newProfile.pl?"  	[MsgId: MMSG-26659]
+Action.c(35): Found resource "http://127.0.0.1:8800/general/up.png" in HTML "http://127.0.0.1:8800/cgi-bin/newProfile.pl?"  	[MsgId: MMSG-26659]
+Action.c(35): Downloading resource "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=?alt=proto" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(35): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:0A00042E:SSL routines::tlsv1 alert protocol version  	[MsgId: MMSG-26000]
+Action.c(35): Warning -27774: SSL protocol error when attempting to connect with host "content-autofill.googleapis.com"  	[MsgId: MWAR-27774]
+Action.c(35): Warning -27760: Request "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=?alt=proto" failed  	[MsgId: MWAR-27760]
+Action.c(35): Registered web_reg_find successful for "Text=New Profile" (count=3)  	[MsgId: MMSG-26364]
+Action.c(35): web_submit_data("newProfile.pl") highest severity level was "warning", 7585 body bytes, 791 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(48): Notify: Transaction "02_NewProfile" ended with a "Pass" status (Duration: 0,2678 Wasted Time: 0,0092).
+Action.c(50): Notify: Transaction "03_Enter" started.
+Action.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_submit_data("newProfile.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(65): Resource "http://127.0.0.1:8800/general/wakatours.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "http://127.0.0.1:8800/general/fonts-Roboto-Condensed.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "http://127.0.0.1:8800/general/help.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "http://127.0.0.1:8800/general/wakatours-header.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "http://127.0.0.1:8800/general/down.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "http://127.0.0.1:8800/general/up.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Error -35048: No match found for the requested parameter "SESSIONID". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+Action.c(65): Error -26366: "Text=Hello testuser_1" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(65): web_submit_data("newProfile.pl_2") highest severity level was "ERROR", 3528 body bytes, 195 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(65): Notify: Transaction "03_Enter" ended with a "Fail" status (Duration: 0,1733 Wasted Time: 0,0074).
+Action.c(65): Notify: Transaction "03_Enter" has 1 error message(s).
+Action.c(65): Notify: The 1st error message associated with transaction "03_Enter" is "Error -26366: "Text=Hello testuser_1" not found for web_reg_find"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

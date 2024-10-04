@@ -1,0 +1,151 @@
+/*****************************************\
+* GENERAL
+\*****************************************/
+*	 {margin:0; padding:0;}
+img	 {border:none;}
+table{border-collapse:collapse;}
+
+div.BLUE_BOX{position:relative; display:block; box-sizing:border-box; box-shadow:1px 1px 2px 0 #000; background-color:rgb(186,201,224); width:100%; padding:10px 20px 10px 20px;}
+#HELP_BOX   {position:relative; display:none;  box-sizing:border-box; box-shadow:1px 1px 2px 0 #000; background-color:white			  ; width:100%; padding:10px; margin-top:10px;}
+
+textarea	  			  {font-family:'Roboto Condensed', sans-serif; font-size:18px; color:black; padding:2px; border-style:inset;}
+select,input			  {font-family:'Roboto Condensed', sans-serif; font-size:18px; color:black;}
+select			  		  {display:table-cell; width:100%; box-sizing:border-box; border-style:inset;}
+input[type="text"]    	  {display:table-cell; width:100%; box-sizing:border-box; border-style:inset; padding-left:2px;}
+input[type="password"]	  {display:table-cell; width:100%; box-sizing:border-box; border-style:inset; padding-left:2px;}
+input[readonly="readonly"]{background-color:rgb(240,240,240);}
+input[type="submit"]	  {height:34px; padding: 0 10px 0 10px; margin:0 25px 0 25px; box-shadow:1px 1px 2px 0 #000;}
+
+
+/****************************************\
+ * MASTER LAYOUT
+\****************************************/
+html,body{height:100%;}
+body{position:relative; margin:auto; min-width:900px; max-width:1400px; width:96%; font-family:'Roboto Condensed', sans-serif; font-size:18px; color:rgb(80,80,80);}
+
+div.MTAB {display:table; width:100%; height:100%;}
+div.MROW {display:table-row;}
+div.MCELL{display:table-cell; width:100%; height:100%; box-shadow:1px 1px 12px 0 #000;}
+
+#MBANNER     {position:absolute; top:40px; width:100%; height:200px; overflow:hidden; background-color:rgb(10,32,55);}
+#MHEADLINE   {position:absolute; left:300px; bottom:30px; color:white; text-shadow:3px 3px 5px rgb(78,117,176);}
+#MCELL_TOP   {display:table-cell; width:100% ; height:40px; padding:0 20px  0  0		; vertical-align:middle; text-align:right;}
+#MCELL_BOTTOM{display:table-cell; width:100% ; height:40px; padding:0 20px  0  0		; vertical-align:middle; text-align:right;}
+#MCELL_LEFT  {display:table-cell; width:250px; height:100%; padding:200px  0 30px  0	; vertical-align:top; background-color:rgb(119,150,195);}
+#MCELL_RIGHT {display:table-cell; width:auto ; height:100%; padding:230px 50px 30px 50px; vertical-align:top;}
+
+
+/****************************************\
+ * HEADINGS
+\****************************************/
+.CH1 {font-size:80px; font-weight:normal; margin:0 0 0 0   ; color:white;}
+.CH2 {font-size:27px; font-weight:normal; margin:0 0 0 0   ; color:rgb(78,117,176);}
+.CH2M{font-size:27px; font-weight:normal; margin:0 0 25px 0; color:rgb(78,117,176);}
+.H3B {font-size:100%; font-weight:bold	 ; margin:0 0 0 0;}
+.CH3B{font-size:100%; font-weight:bold	 ; margin:0 0 0 0; color:rgb(78,117,176);}
+.H3BM{font-size:100%; font-weight:bold	 ; margin:0 0 10px 0;}
+
+
+/****************************************\
+ * NAVIGATION
+\****************************************/
+a			 {text-decoration:none;}
+a.ADMIN		 {color:rgb(80,80,80);}
+a.ADMIN:hover{text-decoration:underline;}
+
+ul.NAVI		{list-style-type:none; width:100%; border-bottom:solid 1px white;}
+li.NAVI		{display:block; margin:0; padding:0; text-align:right;}
+a.NAVI		{display:block; margin:0; padding:10px 15px 9px 15px; border-top:solid 1px white; color:rgb(80,80,80); cursor:pointer;}
+a.NAVI:hover{background-color:rgb(78,117,176);}
+a.ACTIVE	{background-color:rgb(78,117,176); color:white;}
+
+
+/****************************************\
+ * ERROR 
+\****************************************/
+div.ERROR{padding:10px; border:solid 1px rgb(255,0,0); color:rgb(255,0,0); background-color:rgb(255,230,230);}
+ul.ERROR{list-style-type:square; margin:0 0 -3px 0; padding:0 0 0 1.15em;}
+li.ERROR{margin:0px; padding:1px 0 1px 0;}
+
+
+/****************************************\
+ * ACTION 
+\****************************************/
+div.ACTION  {position:relative; width:100%; text-align:center;}
+#HELP_DOWN  {display:inline; position:absolute; bottom:0; left:0; cursor:pointer;}
+#HELP_UP    {display:none  ; position:absolute; bottom:0; left:0; cursor:pointer;}		
+
+
+/****************************************\
+ * HELP 
+\****************************************/
+table.HELP{width:100%; color:rgb(78,117,176); font-size:16px; text-align:left;}
+th.HELP_1 {width:30% ; background-color:rgb(223,230,241); padding:2px; border:solid 1px rgb(78,117,176); vertical-align:top; font-weight:bold;}
+th.HELP_2 {width:30% ; background-color:rgb(223,230,241); padding:2px; border:solid 1px rgb(78,117,176); vertical-align:top; font-weight:bold;}
+th.HELP_3 {width:auto; background-color:rgb(223,230,241); padding:2px; border:solid 1px rgb(78,117,176); vertical-align:top; font-weight:bold;}
+td.HELP   {			   background-color:rgb(244,246,250); padding:2px; border:solid 1px rgb(78,117,176); vertical-align:top;}
+
+
+/****************************************\
+ * welcome.tpl
+\****************************************/
+img.WELCOME{width:100%; min-width:550px; max-width:850px; box-shadow:1px 1px 2px 0 #000;}
+
+/****************************************\
+ * profile.tpl , newProfile.tpl , 
+ * login.tpl   , booking_2.tpl
+\****************************************/
+div.PROFILE_TAB {display:table	   ; width:100%; padding:10px 0 10px 0;}
+div.PROFILE_CELL{display:table-cell; width:100px; text-align:left; vertical-align:middle;}
+
+
+/****************************************\
+ * booking_0.tpl
+\****************************************/
+table.BOOKING0     {width:100%;}
+td.BOOKING0_LEFT   {width:52% ; padding:10px 13px 10px 0   ;}
+td.BOOKING0_RIGHT  {width:auto; padding:10px 0    10px 13px;}
+div.BOOKING0_TAB   {display:table     ; width:100%;}
+div.BOOKING0_CELL1 {display:table-cell; width:115px; text-align:left; vertical-align:middle;}
+div.BOOKING0_CELL2 {display:table-cell; width:120px; text-align:left; vertical-align:middle;}
+div.BOOKING0_CELL3 {display:table-cell; width:115px; text-align:left; vertical-align:middle;}
+div.BOOKING0_CELL4 {display:table-cell; width:120px; text-align:left; vertical-align:middle;}
+div.BOOKING0_CELL5 {display:table-cell; width:140px; text-align:left; vertical-align:middle;}
+input.BOOKING_CELL6{width:60px;}
+
+
+/****************************************\
+ * booking_1.tpl
+\****************************************/
+table.BOOKING1{width:100%; margin: 10px 0 10px 0; text-align:left;}
+th.BOOKING1_1 {width:43% ; border:solid 2px white; padding:10px; vertical-align:top; font-weight:bold;}
+th.BOOKING1_2 {width:auto; border:solid 2px white; padding:10px; vertical-align:top; font-weight:bold;}
+th.BOOKING1_3 {width:auto; border:solid 2px white; padding:10px; vertical-align:top; font-weight:bold;}
+td.BOOKING1   {			   border:solid 2px white; padding:10px; vertical-align:top;}
+
+
+/****************************************\
+ * booking_3.tpl
+\****************************************/
+table.BOOKING3{width:100% ; margin: 10px 0 10px 0;}
+td.BOOKING3_1 {width:400px; border:solid 2px white; padding:10px;}
+td.BOOKING3_2 {width:auto ; border:solid 2px white; padding:10px;}
+td.BOOKING3_3 {width:100px; border:solid 2px white; padding:10px;}
+td.BOOKING3_4 {width:auto ; border:solid 2px white; padding:10px;}
+
+
+/****************************************\
+ * itinerary.tpl
+\****************************************/
+table.ITINERARY{width:100%; margin: 10px 0 10px 0;}
+td.ITINERARY   {width:100%; border:solid 2px white; padding:10px;}
+
+
+/****************************************\
+ * admin.tpl
+\****************************************/
+h3.ADMIN	  {position:absolute; top:10px;}
+textarea.ADMIN{box-sizing:border-box; width:100%; height:300px; resize:vertical; margin:10px 0 10px 0; background-color:rgb(240,240,240);}
+input[type="submit"].ADMIN{margin:0 7px 0 7px;}
+input[type="text"].ADMIN  {width:60px;}
+	

@@ -1,0 +1,322 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 8,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Aug-28-2023",
+    "RecordingDuration": 17078,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1693210235,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 372894,
+    "TotalBytesSent": 10842,
+    "TotalRequests": 17,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4016:808::200a]",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1612,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4001:829::2003]",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 1537,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=116"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "127.0.0.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "127.0.0.1",
+          "IncludeInScript": true,
+          "Name": "127.0.0.1",
+          "Port": 8800,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 1624,
+              "HttpStatus": 200,
+              "Size": 2018,
+              "URL": "http://127.0.0.1:8800/cgi-bin/logout.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81E1A342A3743B27462C98FBED4A2FB"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 1621,
+              "HttpStatus": 200,
+              "Size": 2824,
+              "URL": "http://127.0.0.1:8800/cgi-bin/newProfile.pl?USER=testuser_02&PASSWORD=testuser_02&FIRSTNAME=testuser_02&LASTNAME=testuser_02&STREET=testuser_02&CITY=testuser_02&COUNTRY=testuser_02&ACTION=Login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 1608,
+              "HttpStatus": 200,
+              "Size": 2105,
+              "URL": "http://127.0.0.1:8800/general/up.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1605,
+              "HttpStatus": 200,
+              "Size": 2082,
+              "URL": "http://127.0.0.1:8800/general/down.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 1600,
+              "HttpStatus": 200,
+              "Size": 3398,
+              "URL": "http://127.0.0.1:8800/cgi-bin/newProfile.pl?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 0,
+              "EventId": 1583,
+              "HttpStatus": 200,
+              "Size": 27322,
+              "URL": "http://127.0.0.1:8800/general/wakatours.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1581,
+              "HttpStatus": 200,
+              "Size": 10308,
+              "URL": "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-700/Roboto-Condensed-700.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1579,
+              "HttpStatus": 200,
+              "Size": 11788,
+              "URL": "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-italic/Roboto-Condensed-italic.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1577,
+              "HttpStatus": 200,
+              "Size": 10260,
+              "URL": "http://127.0.0.1:8800/general/fonts/Roboto-Condensed-regular/Roboto-Condensed-regular.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 1568,
+              "HttpStatus": 200,
+              "Size": 120169,
+              "URL": "http://127.0.0.1:8800/general/welcome.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 1561,
+              "HttpStatus": 200,
+              "Size": 8039,
+              "URL": "http://127.0.0.1:8800/general/wakatours.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 1554,
+              "HttpStatus": 200,
+              "Size": 167063,
+              "URL": "http://127.0.0.1:8800/general/wakatours-header.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 1552,
+              "HttpStatus": 200,
+              "Size": 478,
+              "URL": "http://127.0.0.1:8800/general/help.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 1550,
+              "HttpStatus": 200,
+              "Size": 2933,
+              "URL": "http://127.0.0.1:8800/general/fonts-Roboto-Condensed.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 1543,
+              "HttpStatus": 200,
+              "Size": 2019,
+              "URL": "http://127.0.0.1:8800/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

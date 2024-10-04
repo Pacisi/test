@@ -1,0 +1,13 @@
+GET /desktop/v1/recommendations?locale=de&region=DE&count=30 HTTP/1.1
+Host: firefox-api-proxy.cdn.mozilla.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+consumer_key: 94110-6d5ff7a89d72c869766af0e0
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+If-None-Match: W/"47f3-ht4Lf78tb0rm1amGEqn8vC8qvk4"
+

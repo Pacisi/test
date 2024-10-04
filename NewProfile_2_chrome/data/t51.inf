@@ -1,0 +1,13 @@
+[t51]
+FileName1=t51.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=2
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=t51_RequestBody.txt
+ResponseHeaderFile=t51_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_51.xml
+FileName2=t51_4.10.2557.0-win-x64.zip
+URL2=https://r5---sn-4g5e6nsd.gvt1.com/edgedl/widevine-cdm/4.10.2557.0-win-x64.zip?cms_redirect=yes&mh=sd&mip=2003:c9:2f04:103f:a9a8:a7bc:de47:f022&mm=28&mn=sn-4g5e6nsd&ms=nvh&mt=1693210104&mv=m&mvi=5&pl=45&rmhost=r4---sn-4g5e6nsd.gvt1.com&shardbypass=sd&smhost=r1---sn-4g5e6nz7.gvt1.com
+[ProtocolInfo]
+ProtocolId=QTWeb

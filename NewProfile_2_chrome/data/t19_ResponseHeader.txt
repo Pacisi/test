@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/ocsp-response
+Content-Length: 503
+ETag: "90FDF628682D633C39E953D00534A75F281770BD9CA6F2B0E1D72467F472A908"
+Last-Modified: Sat, 26 Aug 2023 05:00:00 UTC
+Cache-Control: public, no-transform, must-revalidate, max-age=19937
+Expires: Mon, 28 Aug 2023 13:42:59 GMT
+Date: Mon, 28 Aug 2023 08:10:42 GMT
+Connection: keep-alive
+

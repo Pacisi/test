@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Server: nginx
+x-powered-by: Express
+access-control-allow-credentials: true
+access-control-allow-headers: Authorization, Content-Type, X-Accept, sentry-trace, apollographql-client-name, apollographql-client-version
+access-control-allow-origin: //getpocket.com
+access-control-expose-headers: X-Accept, X-Error, X-Error-Code, X-Error-Field, X-Error-Data, X-Limit-User-Limit, X-Limit-User-Remaining, X-Limit-User-Reset, X-Limit-Key-Limit, X-Limit-Key-Remaining, X-Limit-Key-Reset
+access-control-max-age: 86400
+p3p: policyref="/w3c/p3p.xml", CP="ALL CURa ADMa DEVa OUR IND UNI COM NAV INT STA PRE"
+status: 200 OK
+strict-transport-security: max-age=63072000
+x-amz-cf-id: fPGhtm3rVzq1r6lqcK5WeYJeHvz8s988k3-W5LX4o-gga-q6sMTpcw==
+x-amz-cf-pop: IAD89-C2, IAD55-P1
+x-cache: Miss from cloudfront
+x-frame-options: SAMEORIGIN
+x-limit-user-limit: 1000
+x-limit-user-remaining: 999
+x-limit-user-reset: 3600
+x-origin: //getpocket.com
+x-source: Pocket
+Content-Encoding: gzip
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront), 1.1 8bf94e29f889f8d0076c4502ae008b58.cloudfront.net (CloudFront), 1.1 google
+Date: Mon, 28 Aug 2023 08:09:31 GMT
+ETag: W/"467c-Ae/bmLHYkmiSV0+Z1EIjHmtv37M"
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+Content-Length: 7655
+Age: 72
+Cache-Control: public,max-age=900,public
+x-gcp-cdn: hit
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

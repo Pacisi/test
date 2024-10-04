@@ -1,0 +1,58 @@
+7e2
+<!DOCTYPE HTML> 
+<html lang="de">
+<head>
+<title>WakaTours</title>
+<meta charset="utf-8">
+<meta name="author"				content="WAKA Software GmbH">
+<meta name="copyright"			content="WAKA Software GmbH">
+<meta name="robots" 			content="noindex,nofollow">
+<meta name="format-detection"	content="telephone=no">
+<link rel="icon" 				href="/./general/wakatours.ico" type="image/x-icon">
+<link rel="stylesheet"    		href="/./general/wakatours.css">
+<link rel="stylesheet"    		href="/./general/fonts-Roboto-Condensed.css">
+<script type="text/javascript"	src ="/./general/help.js"></script>
+</head>
+<body >
+<div id="MBANNER">
+<img src="/./general/wakatours-header.jpg" alt="">
+<h1 id="MHEADLINE" class="CH1">WakaTours</h1>
+</div>
+<div class="MTAB">
+  <div class="MROW">
+    <div id="MCELL_TOP"><a class="ADMIN" href="/./cgi-bin/admin.pl">Administration</a></div>
+  </div>
+  <div class="MTAB">
+    <div class="MCELL">
+      <div class="MTAB">
+        <div id="MCELL_LEFT"><ul class="NAVI">
+<li class="NAVI"><a class="NAVI " onClick="document.forms['NEW-PROFILE'].submit();">New Profile</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['LOGIN'].submit();">Login</a></li>
+</ul>
+<form method="GET" name="NEW-PROFILE" action="/./cgi-bin/newProfile.pl"></form>
+<form method="GET" name="LOGIN"       action="/./cgi-bin/login.pl"></form></div>
+        <div id="MCELL_RIGHT">
+<h2 class="CH2M">Welcome to WakaTours &ndash; the best deals on flights!</h2>
+<img class="WELCOME" src="/./general/welcome.jpg" alt="">
+<br><br>
+Use <i>New Profile</i> to generate a new customer profile.<br>
+Get access to your personal booking area on <i>Login</i>.<br>
+To configure the server options click on <i>Administration</i>.
+<br><br>
+<h3 class="CH3B">Note</h3>
+This is a sample application and has nothing to do with real business.<br>
+Do not use your real personal and accounting data!</div>
+      </div>
+    </div>
+  </div>
+  <div class="MROW">
+    <div id="MCELL_BOTTOM">&copy; WAKA Software GmbH</div>
+  </div>
+</div>
+</body>
+</html>
+1
+
+
+0
+

@@ -1,0 +1,14 @@
+GET /update/6/Firefox/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/de/release/Windows_NT%2010.0.0.0.22621.2134%20(x64)/ISET:SSE4_2,MEM:16129/default/default/update.xml?force=1 HTTP/1.1
+Host: aus5.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+Cookie: _ga_MQ7767QQQW=GS1.1.1692886711.1.0.1692886711.0.0.0; _ga=GA1.2.667563810.1692886711
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+

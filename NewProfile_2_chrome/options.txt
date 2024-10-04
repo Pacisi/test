@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Arbeit lokal\Schulungen\LDBV\LR-Lösungen\LR-Lösungen\Übung_6\NewProfile_2_chrome
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\arbeit lokal\schulungen\ldbv\lr-lösungen\lr-lösungen\übung_6\newprofile_2_chrome\\logfile.log
+c:\arbeit lokal\schulungen\ldbv\lr-lösungen\lr-lösungen\übung_6\newprofile_2_chrome\\combined_NewProfile_2_chrome.c
+c:\arbeit lokal\schulungen\ldbv\lr-lösungen\lr-lösungen\übung_6\newprofile_2_chrome\\pre_cci.c

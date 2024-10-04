@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t1.inf",
+                "time": 1699435191275
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t2.inf",
+                "time": 1699435191508
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t4.inf",
+                "time": 1699435191695
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699435191067,
+                "rawEndTime": 1699435191289,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02221846580505371
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699435191305,
+                "rawEndTime": 1699435191510,
+                "thinkTime": 0.0,
+                "wastedTime": 0.026927709579467775
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699435191526,
+                "rawEndTime": 1699435191696,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02584385871887207
+            }
+        ]
+    }
+]

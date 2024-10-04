@@ -1,0 +1,15 @@
+POST /submit/messaging-system/undesired-events/1/2b53b382-1045-4ecd-ac83-9d487cb8b101 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 28 Aug 2023 08:10:44 GMT
+Content-Length: 423
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+

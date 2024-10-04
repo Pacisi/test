@@ -1,0 +1,96 @@
+<!DOCTYPE HTML> 
+<html lang="de">
+<head>
+<title>New Profile &bull; WakaTours</title>
+<meta charset="utf-8">
+<meta name="author"				content="WAKA Software GmbH">
+<meta name="copyright"			content="WAKA Software GmbH">
+<meta name="robots" 			content="noindex,nofollow">
+<meta name="format-detection"	content="telephone=no">
+<link rel="icon" 				href="/./general/wakatours.ico" type="image/x-icon">
+<link rel="stylesheet"    		href="/./general/wakatours.css">
+<link rel="stylesheet"    		href="/./general/fonts-Roboto-Condensed.css">
+<script type="text/javascript"	src ="/./general/help.js"></script>
+</head>
+<body >
+<div id="MBANNER">
+<img src="/./general/wakatours-header.jpg" alt="">
+<h1 id="MHEADLINE" class="CH1">WakaTours</h1>
+</div>
+<div class="MTAB">
+  <div class="MROW">
+    <div id="MCELL_TOP"></div>
+  </div>
+  <div class="MTAB">
+    <div class="MCELL">
+      <div class="MTAB">
+        <div id="MCELL_LEFT"><ul class="NAVI">
+<li class="NAVI"><a class="NAVI ACTIVE" onClick="document.forms['NEW-PROFILE'].submit();">New Profile</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['LOGIN'].submit();">Login</a></li>
+</ul>
+<form method="GET" name="NEW-PROFILE" action="/./cgi-bin/newProfile.pl"></form>
+<form method="GET" name="LOGIN"       action="/./cgi-bin/login.pl"></form></div>
+        <div id="MCELL_RIGHT">
+<h2 class="CH2M">New Profile</h2>
+<form action="/./cgi-bin/newProfile.pl" method="GET">
+<div class="BLUE_BOX">
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">User:</div><input type="text" name="USER" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Password:</div><input type="password" name="PASSWORD" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">First Name:</div><input type="text" name="FIRSTNAME" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Last Name:</div><input type="text" name="LASTNAME" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Street:</div><input type="text" name="STREET" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">City:</div><input type="text" name="CITY" value="">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Country:</div><input type="text" name="COUNTRY" value="">
+</div>
+</div>
+<br>
+<div class="ACTION">
+<img id="HELP_DOWN" onClick="showHelp()" src="/./general/down.png" alt="">
+<img id="HELP_UP"   onClick="showHelp()" src="/./general/up.png"   alt="">
+<input type="submit" name="ACTION" value="Login">
+<input type="submit" name="ACTION" value="Exit">
+</div>
+</form>
+<div id="HELP_BOX">
+<table class="HELP">
+<tr>
+<th class="HELP_1">Input Field</th>
+<th class="HELP_2">ID</th>
+<th class="HELP_3">Required Format</th>
+</tr><tr>
+<td class="HELP">User</td>
+<td class="HELP">USER</td>
+<td class="HELP">not empty<br>no leading or trailing spaces<br>no '#' and '.'</td>
+</tr><tr>
+<td class="HELP">Password<br>First Name<br>Last Name<br>Street<br>City<br>Country</td>
+<td class="HELP">PASSWORD<br>FIRSTNAME<br>LASTNAME<br>STREET<br>CITY<br>COUNTRY</td>
+<td class="HELP">not empty<br>no leading or trailing spaces<br>no '#'</td>
+</tr><tr>
+<td class="HELP">Submit Button</td>
+<td class="HELP">ACTION</td>
+<td class="HELP">Login || Exit</td>
+</tr>
+</table>
+</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="MROW">
+    <div id="MCELL_BOTTOM">&copy; WAKA Software GmbH</div>
+  </div>
+</div>
+</body>
+</html>

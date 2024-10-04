@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 82
+Connection: keep-alive
+Allow: GET, HEAD, OPTIONS
+Content-Security-Policy: script-src https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js https://www.recaptcha.net/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://addons.mozilla.org/static-server/; media-src https://videos.cdn.mozilla.net; form-action 'self'; object-src 'none'; default-src 'none'; child-src https://www.recaptcha.net/recaptcha/; connect-src 'self' https://*.google-analytics.com; img-src 'self' blob: data: https://addons.mozilla.org/static-server/ https://addons.mozilla.org/user-media/; style-src 'unsafe-inline' https://addons.mozilla.org/static-server/; font-src 'self' https://addons.mozilla.org/static-server/; frame-src https://www.recaptcha.net/recaptcha/; report-uri /__cspreport__
+Cross-Origin-Opener-Policy: same-origin
+Public-Key-Pins: max-age=5184000; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+X-AMO-Request-ID: 2d94950ef3d54bc4a02853627b9047bc
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Cache-Control: max-age=180
+Date: Mon, 28 Aug 2023 08:10:32 GMT
+ETag: "4f822d39c269d2c47e3174b6c6bad3b7"
+Vary: origin,X-Country-Code,Accept-Language
+X-Cache: Hit from cloudfront
+Via: 1.1 bb3ac1595bb014e3b09608a0358d33da.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: FRA56-P4
+X-Amz-Cf-Id: 42ZEPHGALIjdhIFxCF_UBy3nLiOrTIR_3BtLYR-RUPAQDJVr5fCy1Q==
+Age: 32
+

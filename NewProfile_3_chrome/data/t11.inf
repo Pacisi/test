@@ -1,0 +1,11 @@
+[t11]
+FileName1=t11_update.xml
+URL1=https://aus5.mozilla.org/update/6/Firefox/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/de/release/Windows_NT%2010.0.0.0.22621.2134%20(x64)/ISET:SSE4_2,MEM:16129/default/default/update.xml?force=1
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_11.xml
+RequestHeaderFile=t11_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t11_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

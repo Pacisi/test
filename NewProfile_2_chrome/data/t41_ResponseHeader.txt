@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+server: nginx
+Content-Length: 598
+allow: GET, HEAD, OPTIONS
+content-security-policy: worker-src 'none'; block-all-mixed-content; object-src 'none'; base-uri 'none'; default-src 'self' https://normandy.cdn.mozilla.net/; form-action 'self'; frame-src 'none'; report-uri /__cspreport__
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000
+via: 1.1 google
+Date: Mon, 28 Aug 2023 07:35:16 GMT
+Cache-Control: public, max-age=86400
+Content-Type: application/json
+Vary: Accept, Origin
+Age: 2148
+Alt-Svc: clear
+

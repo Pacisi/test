@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30.html
+URL1=https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=116.0&pver=2.2
+Total=1
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=t30_RequestBody.txt
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_30.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t7]
+FileName1=t7_tiles.json
+URL1=https://contile.services.mozilla.com/v1/tiles
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7_Roboto-Condensed-italic.txt
+URL2=http://127.0.0.1:8800/general/fonts/Roboto-Condensed-italic/Roboto-Condensed-italic.woff2
+FileName3=t7_Roboto-Condensed-700.txt
+URL3=http://127.0.0.1:8800/general/fonts/Roboto-Condensed-700/Roboto-Condensed-700.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

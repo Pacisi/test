@@ -1,0 +1,11 @@
+[t15]
+FileName1=t15.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/d6dfd885-bdc8-4e96-99e1-f49dda309553
+Total=1
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=t15_RequestBody.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_15.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

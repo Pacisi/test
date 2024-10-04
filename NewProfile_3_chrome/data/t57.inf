@@ -1,0 +1,17 @@
+[t57]
+FileName1=t57.htm
+URL1=http://127.0.0.1:8800/cgi-bin/newProfile.pl?
+Total=4
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_57.xml
+FileName2=t57_down.png
+URL2=http://127.0.0.1:8800/general/down.png
+FileName3=t57_up.png
+URL3=http://127.0.0.1:8800/general/up.png
+FileName4=t57_ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=.txt
+URL4=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTE2LjAuNTg0NS4xMTESOgl9548EtwIOFhIFDeqIV54SBQ1YnrzrEgUNUP5JSRIFDXK1lpUSBQ3Bes5fEgUN708BexIFDSGph-I=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

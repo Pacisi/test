@@ -1,0 +1,1049 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t1.inf",
+                "time": 1699284614877
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t2.inf",
+                "time": 1699284615098
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t4.inf",
+                "time": 1699284615298
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t5.inf",
+                "time": 1699284615570
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t6.inf",
+                "time": 1699284615787
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t7.inf",
+                "time": 1699284615976
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t9.inf",
+                "time": 1699284616138
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t10.inf",
+                "time": 1699284616289
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t11.inf",
+                "time": 1699284616504
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t12.inf",
+                "time": 1699284616695
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t14.inf",
+                "time": 1699284616863
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t15.inf",
+                "time": 1699284617030
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t16.inf",
+                "time": 1699284617236
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t17.inf",
+                "time": 1699284617432
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t19.inf",
+                "time": 1699284617625
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t20.inf",
+                "time": 1699284617789
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t21.inf",
+                "time": 1699284618008
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t22.inf",
+                "time": 1699284618211
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t24.inf",
+                "time": 1699284618390
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t25.inf",
+                "time": 1699284618548
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t26.inf",
+                "time": 1699284618749
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t27.inf",
+                "time": 1699284618938
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t29.inf",
+                "time": 1699284619138
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t30.inf",
+                "time": 1699284619316
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t31.inf",
+                "time": 1699284619549
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t32.inf",
+                "time": 1699284619758
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t34.inf",
+                "time": 1699284619936
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t35.inf",
+                "time": 1699284620086
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t36.inf",
+                "time": 1699284620295
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t37.inf",
+                "time": 1699284620480
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t39.inf",
+                "time": 1699284620657
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t40.inf",
+                "time": 1699284620803
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t41.inf",
+                "time": 1699284621032
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t42.inf",
+                "time": 1699284621224
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t44.inf",
+                "time": 1699284621406
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t45.inf",
+                "time": 1699284621563
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t46.inf",
+                "time": 1699284621779
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t47.inf",
+                "time": 1699284621969
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t49.inf",
+                "time": 1699284622149
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t50.inf",
+                "time": 1699284622289
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t51.inf",
+                "time": 1699284622485
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t52.inf",
+                "time": 1699284622675
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t54.inf",
+                "time": 1699284622852
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t55.inf",
+                "time": 1699284623011
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t56.inf",
+                "time": 1699284623226
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t57.inf",
+                "time": 1699284623410
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t59.inf",
+                "time": 1699284623585
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t60.inf",
+                "time": 1699284623747
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t61.inf",
+                "time": 1699284623977
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t62.inf",
+                "time": 1699284624157
+            },
+            {
+                "stepId": "STEP51",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t64.inf",
+                "time": 1699284624337
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t65.inf",
+                "time": 1699284624487
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t66.inf",
+                "time": 1699284624709
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t67.inf",
+                "time": 1699284624895
+            },
+            {
+                "stepId": "STEP55",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t69.inf",
+                "time": 1699284625072
+            },
+            {
+                "stepId": "STEP56",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t70.inf",
+                "time": 1699284625244
+            },
+            {
+                "stepId": "STEP57",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t71.inf",
+                "time": 1699284625467
+            },
+            {
+                "stepId": "STEP58",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t72.inf",
+                "time": 1699284625665
+            },
+            {
+                "stepId": "STEP59",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t74.inf",
+                "time": 1699284625858
+            },
+            {
+                "stepId": "STEP60",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t75.inf",
+                "time": 1699284626029
+            },
+            {
+                "stepId": "STEP61",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t76.inf",
+                "time": 1699284626250
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t77.inf",
+                "time": 1699284626433
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t79.inf",
+                "time": 1699284626610
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t80.inf",
+                "time": 1699284626769
+            },
+            {
+                "stepId": "STEP65",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t81.inf",
+                "time": 1699284626980
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t82.inf",
+                "time": 1699284627176
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t84.inf",
+                "time": 1699284627355
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t85.inf",
+                "time": 1699284627534
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t86.inf",
+                "time": 1699284627751
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t87.inf",
+                "time": 1699284627947
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t89.inf",
+                "time": 1699284628126
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t90.inf",
+                "time": 1699284628292
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t91.inf",
+                "time": 1699284628498
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t92.inf",
+                "time": 1699284628695
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t94.inf",
+                "time": 1699284628907
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t95.inf",
+                "time": 1699284629088
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t96.inf",
+                "time": 1699284629327
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Submit Data: newProfile.pl",
+                "infFile": "t97.inf",
+                "time": 1699284629533
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Submit Data: newProfile.pl_2",
+                "infFile": "t99.inf",
+                "time": 1699284629723
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t100.inf",
+                "time": 1699284629888
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284614269,
+                "rawEndTime": 1699284614885,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06587934494018555
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284614901,
+                "rawEndTime": 1699284615105,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00995182991027832
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284615120,
+                "rawEndTime": 1699284615309,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009172439575195313
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284615324,
+                "rawEndTime": 1699284615575,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034940242767333986
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284615654,
+                "rawEndTime": 1699284615795,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032858848571777345
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284615811,
+                "rawEndTime": 1699284615983,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004892826080322266
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284616001,
+                "rawEndTime": 1699284616140,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005738973617553711
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284616156,
+                "rawEndTime": 1699284616299,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032982826232910158
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284616377,
+                "rawEndTime": 1699284616517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034279823303222658
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284616533,
+                "rawEndTime": 1699284616704,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003215789794921875
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284616720,
+                "rawEndTime": 1699284616878,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008056402206420899
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284616894,
+                "rawEndTime": 1699284617033,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004579782485961914
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284617113,
+                "rawEndTime": 1699284617240,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004674196243286133
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284617256,
+                "rawEndTime": 1699284617443,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004701375961303711
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284617459,
+                "rawEndTime": 1699284617631,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0062255859375
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284617646,
+                "rawEndTime": 1699284617804,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00336456298828125
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284617883,
+                "rawEndTime": 1699284618024,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005256175994873047
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284618041,
+                "rawEndTime": 1699284618214,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0044498443603515629
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284618229,
+                "rawEndTime": 1699284618401,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006198406219482422
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284618419,
+                "rawEndTime": 1699284618558,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00356292724609375
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284618636,
+                "rawEndTime": 1699284618762,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003991127014160156
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284618777,
+                "rawEndTime": 1699284618949,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034017562866210939
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284618965,
+                "rawEndTime": 1699284619155,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006444215774536133
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284619171,
+                "rawEndTime": 1699284619328,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0047228336334228519
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284619419,
+                "rawEndTime": 1699284619564,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004160165786743164
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284619580,
+                "rawEndTime": 1699284619769,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004845380783081055
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284619785,
+                "rawEndTime": 1699284619942,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005885124206542969
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284619957,
+                "rawEndTime": 1699284620099,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004228353500366211
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284620178,
+                "rawEndTime": 1699284620304,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0045130252838134769
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284620319,
+                "rawEndTime": 1699284620490,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036232471466064455
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284620507,
+                "rawEndTime": 1699284620663,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005573272705078125
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284620678,
+                "rawEndTime": 1699284620820,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003480672836303711
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284620898,
+                "rawEndTime": 1699284621038,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004610776901245117
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284621055,
+                "rawEndTime": 1699284621227,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037643909454345705
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284621242,
+                "rawEndTime": 1699284621413,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006985187530517578
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284621428,
+                "rawEndTime": 1699284621570,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004134178161621094
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284621649,
+                "rawEndTime": 1699284621791,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004425048828125
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284621807,
+                "rawEndTime": 1699284621980,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036208629608154299
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284621996,
+                "rawEndTime": 1699284622153,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006555318832397461
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284622169,
+                "rawEndTime": 1699284622292,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034973621368408205
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284622372,
+                "rawEndTime": 1699284622496,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003428220748901367
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284622513,
+                "rawEndTime": 1699284622684,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033960342407226564
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284622700,
+                "rawEndTime": 1699284622856,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004612445831298828
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284622872,
+                "rawEndTime": 1699284623027,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004974842071533203
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284623106,
+                "rawEndTime": 1699284623229,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036356449127197267
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284623245,
+                "rawEndTime": 1699284623419,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033447742462158205
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284623435,
+                "rawEndTime": 1699284623591,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006345272064208984
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284623606,
+                "rawEndTime": 1699284623764,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0044689178466796879
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284623843,
+                "rawEndTime": 1699284623984,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003460407257080078
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284624000,
+                "rawEndTime": 1699284624171,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003934621810913086
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284624186,
+                "rawEndTime": 1699284624344,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005007743835449219
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284624360,
+                "rawEndTime": 1699284624501,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007240772247314453
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284624580,
+                "rawEndTime": 1699284624723,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033371448516845705
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284624740,
+                "rawEndTime": 1699284624897,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031499862670898439
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284624912,
+                "rawEndTime": 1699284625084,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00566554069519043
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284625100,
+                "rawEndTime": 1699284625256,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00506138801574707
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284625334,
+                "rawEndTime": 1699284625476,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004966020584106445
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284625492,
+                "rawEndTime": 1699284625680,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0061931610107421879
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284625696,
+                "rawEndTime": 1699284625870,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007318973541259766
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284625888,
+                "rawEndTime": 1699284626043,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004048347473144531
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284626121,
+                "rawEndTime": 1699284626260,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004895210266113281
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284626276,
+                "rawEndTime": 1699284626448,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003489255905151367
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284626464,
+                "rawEndTime": 1699284626620,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0064771175384521488
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284626637,
+                "rawEndTime": 1699284626778,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033020973205566408
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284626855,
+                "rawEndTime": 1699284626994,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004552602767944336
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284627010,
+                "rawEndTime": 1699284627183,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004570960998535156
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284627199,
+                "rawEndTime": 1699284627371,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005585670471191406
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284627388,
+                "rawEndTime": 1699284627546,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005738258361816406
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284627625,
+                "rawEndTime": 1699284627767,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035364627838134767
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284627783,
+                "rawEndTime": 1699284627953,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003324270248413086
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284627969,
+                "rawEndTime": 1699284628143,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006441354751586914
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284628159,
+                "rawEndTime": 1699284628300,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005376577377319336
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284628379,
+                "rawEndTime": 1699284628506,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0050089359283447269
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284628522,
+                "rawEndTime": 1699284628710,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035903453826904299
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284628727,
+                "rawEndTime": 1699284628914,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005700111389160156
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284628930,
+                "rawEndTime": 1699284629101,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00530695915222168
+            },
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1699284629180,
+                "rawEndTime": 1699284629337,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0039000511169433595
+            },
+            {
+                "transactionName": "02_NewProfile",
+                "rawStartTime": 1699284629352,
+                "rawEndTime": 1699284629541,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014520406723022461
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1699284629556,
+                "rawEndTime": 1699284629728,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006989002227783203
+            },
+            {
+                "transactionName": "04_Logout",
+                "rawStartTime": 1699284629745,
+                "rawEndTime": 1699284629900,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003949165344238281
+            }
+        ]
+    }
+]

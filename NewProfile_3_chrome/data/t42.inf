@@ -1,0 +1,11 @@
+[t42]
+FileName1=t42.json
+URL1=https://services.addons.mozilla.org/api/v4/addons/search/?guid=default-theme%40mozilla.org%2Cfirefox-compact-light%40mozilla.org%2Cfirefox-compact-dark%40mozilla.org%2Cfirefox-alpenglow%40mozilla.org%2Cgoogle%40search.mozilla.org%2Cleo_ende_de%40search.mozilla.org%2Cecosia%40search.mozilla.org%2Cwikipedia%40search.mozilla.org%2Cbing%40search.mozilla.org%2Camazon%40search.mozilla.org%2Cddg%40search.mozilla.org%2Cebay%40search.mozilla.org%2Caddons-search-detection%40mozilla.com&lang=de
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_42.xml
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t41]
+FileName1=t41.json
+URL1=https://normandy.cdn.mozilla.net/api/v1/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_41.xml
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

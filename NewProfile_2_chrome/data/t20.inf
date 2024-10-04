@@ -1,0 +1,13 @@
+[t20]
+FileName1=t20.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/b195aeb1-c113-4f51-9163-ba58b9fb1821
+Total=2
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_up.png
+URL2=http://127.0.0.1:8800/general/up.png
+[ProtocolInfo]
+ProtocolId=QTWeb

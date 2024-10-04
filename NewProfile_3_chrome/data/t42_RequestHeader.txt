@@ -1,0 +1,11 @@
+GET /api/v4/addons/search/?guid=default-theme%40mozilla.org%2Cfirefox-compact-light%40mozilla.org%2Cfirefox-compact-dark%40mozilla.org%2Cfirefox-alpenglow%40mozilla.org%2Cgoogle%40search.mozilla.org%2Cleo_ende_de%40search.mozilla.org%2Cecosia%40search.mozilla.org%2Cwikipedia%40search.mozilla.org%2Cbing%40search.mozilla.org%2Camazon%40search.mozilla.org%2Cddg%40search.mozilla.org%2Cebay%40search.mozilla.org%2Caddons-search-detection%40mozilla.com&lang=de HTTP/1.1
+Host: services.addons.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+
